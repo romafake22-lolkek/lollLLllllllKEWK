@@ -1,10 +1,14 @@
+using System;
+
 namespace Git
 {
     class Git
     {
         static void Main(string[] args)
         {
-            System.Consol.WriteLine("Hello Git!");
+            System.Consol.WriteLine("Enter your name: ");
+            string name = Console.ReadLine();
+            System.Console.WriteLine($"Hello {name}!");
         }
     }
 }
